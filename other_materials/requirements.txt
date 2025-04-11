@@ -1,3 +1,4 @@
+notebook
 pandas
 numpy
 scikit-learn
@@ -12,3 +13,6 @@ wordcloud
 plotly
 us
 openpyxl
+imblearn
+xgboost
+catboost

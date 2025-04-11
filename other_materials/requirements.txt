@@ -11,3 +11,4 @@ pytz
 wordcloud
 plotly
 us
+openpyxl

@@ -1,0 +1,66 @@
+/* Custom styles for the FDA Recall Classification app */
+
+/* Main background */
+.stApp {
+    background-color: #f5f7fa;
+}
+
+/* Header styling */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Make the prediction section stand out */
+.stButton > button {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the prediction result */
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Style the error message */
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Style the metrics */
+.stMetric {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stMetric > div {
+    font-weight: bold;
+}
+
+/* Style the risk factors list */
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}

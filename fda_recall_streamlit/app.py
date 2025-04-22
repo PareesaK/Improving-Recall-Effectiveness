@@ -14,13 +14,13 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 # Add custom CSS
-with open('css/style.css') as f:
+with open('fda_recall_streamlit/css/style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 # Load the model and encoder
 @st.cache_resource
 def load_model():
-    model = joblib.load('models/random_forest_enhanced_model.joblib')
-    label_encoder = joblib.load('models/label_encoder.joblib')
+    model = joblib.load('fda_recall_streamlit/models/random_forest_enhanced_model.joblib')
+    label_encoder = joblib.load('fda_recall_streamlit/models/label_encoder.joblib')
     return model, label_encoder
 model, label_encoder = load_model()
 # State to region mapping

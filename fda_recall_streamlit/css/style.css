@@ -22,11 +22,11 @@ h1 {
     font-weight: bold;
     border-radius: 5px;
     padding: 0.5rem 1rem;
-    border: none;
+    border: 1px solid rgb(187, 199, 194);
 }
 
 .stButton > button:hover {
-    background-color: var(--primary-color-dark);
+    background-color: #22bdbd;
     opacity: 0.8;
 }
 

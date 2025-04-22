@@ -1,55 +1,60 @@
 /* Custom styles for the FDA Recall Classification app */
 
-/* Main background */
 .stApp {
-    background-color: #f5f7fa;
+    /* This will adapt to the theme automatically */
+    background-color: var(--background-color);
 }
 
 /* Header styling */
 h1, h2, h3 {
-    color: #2c3e50;
+    color: var(--text-color);
 }
 
 h1 {
     padding-bottom: 1rem;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 /* Make the prediction section stand out */
 .stButton > button {
-    background-color: #3498db;
-    color: white;
+    background-color: #86cecb;
+    color: #373b3e;
     font-weight: bold;
     border-radius: 5px;
     padding: 0.5rem 1rem;
-    border: none;
+    border: 1px solid rgb(187, 199, 194);
 }
 
 .stButton > button:hover {
-    background-color: #2980b9;
+    background-color: #137a7f;
+    color: #bec8d1;
+    opacity: 0.8;
 }
 
-/* Style the prediction result */
+/* Style the prediction result - using theme variables */
 .success {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: rgba(25, 135, 84, 0.2);
+    color: var(--text-color);
     padding: 1rem;
     border-radius: 5px;
     margin-top: 1rem;
+    border-left: 4px solid rgb(25, 135, 84);
 }
 
-/* Style the error message */
+/* Style the error message - using theme variables */
 .error {
-    background-color: #f8d7da;
-    color: #721c24;
+    background-color: rgba(220, 53, 69, 0.2);
+    color: var(--text-color);
     padding: 1rem;
     border-radius: 5px;
     margin-top: 1rem;
+    border-left: 4px solid rgb(220, 53, 69);
 }
 
 /* Style the metrics */
 .stMetric {
-    background-color: white;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color, rgba(128, 128, 128, 0.2));
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

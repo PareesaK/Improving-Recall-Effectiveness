@@ -1,6 +1,9 @@
 # Improving-Recall-Effectiveness
 
-#### Project Status: Active
+#### -- Project Status: Active
+
+## Data Source
+The data used in this project was sourced from the [FDA Compliance Dashboards](https://datadashboard.fda.gov/ora/cd/recalls.htm), which contains information about products that have been recalled.
 
 ## 🗂️ Project Structure
 ```plaintext
@@ -63,6 +66,10 @@ This project aims to enhance public health and regulatory efficiency by developi
 - `Lorena Dorado`  
 - `Parisa Kamizi`
 
+## 💻 Technologies
+- **Python**
+- **Streamlit**
+
 ## ⚙️ Methods Used
 - **EDA**
 - **Data Clean**: Removed ID columns and filled 1 missing value  
@@ -120,6 +127,11 @@ mod
 - Model explanation visuals (feature importance, performance metrics)
 
 ## 🧪 Models Compared
+- **random_forest**
+- **decision_tree**
+- **mlp**
+- **xgboost**
+- **logreg**
 
 
 ## ⚠️ Limitations

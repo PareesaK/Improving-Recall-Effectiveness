@@ -1,7 +1,32 @@
 # Improving-Recall-Effectiveness
 
+#### Project Status: Active
 
-## Step 1: Navigate to the "Improving-Recall-Effectiveness" folder in command line
+## 🗂️ Project Structure
+```plaintext
+Improving-Recall-Effectiveness/
+├── code_library/
+│   ├── Data Exploration.ipynb
+│   ├── Data Preparation.ipynb
+│   └── Modeling.ipynb
+├── data/
+│   └── recalls_details.xlsx
+├── fda_recall_streamlit/
+│   ├── models/
+│   └── app.py
+├── images/
+│   ├── EDA_
+│   ├── DATA_PREP_
+│   └── MODEL_
+└── other_materials/
+    └── requirements.txt
+```
+
+## How to Set Up the Project Locally
+
+### Step 1: Clone Repo
+
+### Step 2: Navigate to the "Improving-Recall-Effectiveness" folder in command line
 
 * activate your environment with conda
 
@@ -24,11 +49,11 @@ python -m venv .venv
 > source .venv/bin/activate
 > ```
 
-## Step 3: Install dependencies
+### Step 3: Install dependencies
 ```
 pip install -r other_materials/requirements.txt
 ```
-# Early Detection of High-Risk Product Recalls  
+# Overview: Early Detection of High-Risk Product Recalls  
 *A Comparative Study of Multi-Class Classification Approaches*
 
 ## 📌 Project Intro / Objective

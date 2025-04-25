@@ -142,3 +142,13 @@ mod
 - Improve Class III recall performance
 - Incorporate root cause scraping and more NLP refinements
 - Optimize for real-time scalability and low-latency deployment
+
+## Acknowledgments
+Code notebooks, documentation, and Streamlit application were improved with assistance from Claude (Anthropic), which helped with code optimization and analysis techniques.
+
+## References
+Anthropic. (2025). Claude 3.7 Sonnet (February 2025 version) [Large language model]. https://claude.ai
+
+Barbosa-Slivinskis, V., Agi-Maluli, I., & Seth-Broder, J. (2024). A machine learning algorithm to predict medical device recall by the Food and Drug Administration. The Western Journal of Emergency Medicine, 26(1), 161–170. https://doi.org/10.5811/westjem.21238
+
+Kuhn, M., & Johnson, K. (2013). Applied predictive modeling. Springer.

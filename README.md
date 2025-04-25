@@ -95,13 +95,7 @@ mod
 - Model explanation visuals (feature importance, performance metrics)
 
 ## 🧪 Models Compared
-| Model | CV F1 Score | Test F1 Score |
-|-------|-------------|----------------|
-| Random Forest | 0.92 | 0.93 |
-| Decision Tree | 0.90 | 0.91 |
-| MLP | 0.88 | 0.89 |
-| XGBoost | 0.88 | 0.88 |
-| Logistic Regression | 0.69 | 0.69 |
+
 
 ## ⚠️ Limitations
 - Slower training times due to model complexity

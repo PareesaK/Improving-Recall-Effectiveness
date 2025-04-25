@@ -19,7 +19,7 @@ with open('fda_recall_streamlit/css/style.css') as f:
 # Load the model and encoder
 @st.cache_resource
 def load_model():
-    model = joblib.load('fda_recall_streamlit/models/random_forest_enhanced_model.joblib')
+    model = joblib.load('fda_recall_streamlit/models/random_forest_final_model.joblib')
     label_encoder = joblib.load('fda_recall_streamlit/models/label_encoder.joblib')
     return model, label_encoder
 model, label_encoder = load_model()

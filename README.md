@@ -66,6 +66,10 @@ This project aims to enhance public health and regulatory efficiency by developi
 - `Lorena Dorado`  
 - `Parisa Kamizi`
 
+## 💻 Project Kanban Board
+![Project Board Screenshot](images/kanban.PNG)
+[View our Project Board](https://github.com/users/renaqd/projects/8)
+
 ## 💻 Technologies
 - **Python**
 - **Streamlit**
@@ -105,11 +109,9 @@ This capstone project explores machine learning and NLP techniques to classify t
 - **Best Model:** Random Forest  
 - **F1 Score:** 0.9308 (overall weighted)  
 - **Key Findings:**
-- my-project/
-├── README.md
-├── images/
-│   └── modeling.png
-mod
+![Metrics](images/MODEL_metrics_heatmap.png)
+
+
 - **Classification Performance (Test Set):**
 
 | Class     | Precision | Recall  | F1 Score | Support |

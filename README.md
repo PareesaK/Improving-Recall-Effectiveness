@@ -66,7 +66,7 @@ This project aims to enhance public health and regulatory efficiency by developi
 - `Lorena Dorado`  
 - `Parisa Kamizi`
 
-## 💻 Project Kanban Board
+## 📋 Project Kanban Board
 ![Project Board Screenshot](images/kanban.PNG)
 [View our Project Board](https://github.com/users/renaqd/projects/8)
 
